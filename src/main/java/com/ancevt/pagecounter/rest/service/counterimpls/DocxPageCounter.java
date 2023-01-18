@@ -1,11 +1,13 @@
-package com.ancevt.pagecounter.rest.pagecounter;
+package com.ancevt.pagecounter.rest.service.counterimpls;
 
 import org.apache.poi.POIXMLDocument;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
+import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.nio.file.Path;
 
+@Service
 public class DocxPageCounter implements PageCounter{
 
     @Override

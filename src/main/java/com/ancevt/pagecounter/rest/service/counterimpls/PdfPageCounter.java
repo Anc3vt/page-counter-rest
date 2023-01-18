@@ -1,11 +1,13 @@
-package com.ancevt.pagecounter.rest.pagecounter;
+package com.ancevt.pagecounter.rest.service.counterimpls;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
+import org.springframework.stereotype.Service;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
 
+@Service
 public class PdfPageCounter implements PageCounter {
 
     @Override
