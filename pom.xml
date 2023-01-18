@@ -78,11 +78,6 @@
             <version>${lombok.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.ancevt.util</groupId>
-            <artifactId>args</artifactId>
-            <version>${args.version}</version>
-        </dependency>
-        <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>${commons-io.version}</version>
