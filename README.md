@@ -30,3 +30,5 @@ http://localhost:8080/v1/count?basePath=/home/username/Documents
 Documents: 4
 Pages: 201 
 ```
+
+Если указанная вами директория отсутствует, будет возвращена ошибка 400 BAD REQUEST (No such directory)
